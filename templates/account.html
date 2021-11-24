@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <form action="" method="post">
+        {% if req %}
+        <div>
+            <p>
+                Hello, {{req[1]}}!
+            </p>
+            <p>
+                Your login: {{req[2]}}. Your password: {{req[3]}}
+            </p>
+        </div>
+        {% endif %}
+
+
+    </form>
+</head>
+<body>
+
+</body>
+</html>
